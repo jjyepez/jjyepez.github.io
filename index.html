@@ -18,6 +18,7 @@ color: #335;
 }
 .fondo {
 background-color: #cccce0;
+z-index:-1;
 }
 .adaptable {
 vertical-align: middle;
@@ -73,7 +74,6 @@ opacity: 1;
 </head>
 <body>
 <template id="main">
-<div class="viewport fondo" id="particles-js"></div>
 <div class="viewport div-tabla">
 <div class="div-fila">
 <div class="div-celda alinear-medio relativo alinear-centro">
@@ -98,6 +98,7 @@ opacity: 1;
 </div>
 </template>
 <div id="app"></div>
+<div class="viewport fondo" id="particles-js"></div>  
 <script src='https://noesishosting.com/cdn/libs/vue/vue.min.js'></script>
 
 <script>
