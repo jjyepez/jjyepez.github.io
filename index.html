@@ -1,100 +1,140 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>jjyepez - Julio J. Yépez</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body id="top">
+<head>
+<meta charset="UTF-8">
+<title>jjyepez.com - Julio J. Yépez</title>
 
-		<!-- Barra izquierda -->
-			<header id="header">
-				<!-- Tu imagen -->
-				<a href="#" class="image avatar"><img src="https://raw.githubusercontent.com/jjyepez/jjyepez.github.io/master/images/1nLpA6pX_400x400.jpg" alt="" /></a>
-				<!-- Tu perfil -->
-				<h1><strong>Julio J. Yépez</strong>, Profesional IT.<br />
-			</header>
 
-		<!-- Contenido principal -->
-			<div id="main">
-					<section id="one">
-						<header class="major">
-							<!-- Tu perfil - Título -->
-							<h2>Julio J. Yépez</h2>
-						</header>
-						<!-- Tu perfil - Descripción -->
-						<p>Ego sum qui sum. Ingeniero en Informática de profesión. Diseñador Gráfico por vocación. Knowledge-hunter por naturaleza.</p>
-						<ul class="actions">
-							<li><a href="https://ve.linkedin.com/in/julio-j-y%C3%A9pez-030b221" target="_blank" class="button">Conoce más de mi trabajo.</a></li>
-						</ul>
-					</section>
+<link rel='stylesheet prefetch' href='https://noesishosting.com/cdn/estilos.css'>
+<link rel='stylesheet prefetch' href='https://noesishosting.com/cdn/feather-plus/style.css'>
+<link rel='stylesheet prefetch' href='https://noesishosting.com/cdn/fuentes_libres.css'>
+<link rel='stylesheet prefetch' href='https://noesishosting.com/clientes/jjyepez/style.css'>
 
-					<!-- Tu portafolio - Lo más importante -->
-					<section id="two">
-						<h2>Mejores experiencias</h2>
-						<div class="row">
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="https://medium.com/@jjyepez" target="_blank" class="image fit thumb"><img src="http://lorempixel.com/300/200/city/1" alt="" /></a>
-								<h3>Lorem ipsum dolr sit.</h3>
-								<p>Proin mattis neque vel nibh sagittis, sit amet semper lorem dapibus. Curabitur non accumsan nisl. Donec placerat risus in risus ornare, vitae interdum nibh faucibus. </p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="https://medium.com/@jjyepez" target="_blank" class="image fit thumb"><img src="http://lorempixel.com/300/200/city/2" alt="" /></a>
-								<h3>Lorem ipsum dolr sit.</h3>
-								<p>Proin mattis neque vel nibh sagittis, sit amet semper lorem dapibus. Curabitur non accumsan nisl. Donec placerat risus in risus ornare, vitae interdum nibh faucibus. </p>
-							</article>
-							<article class="6u 12u$(xsmall) work-item">
-								<a href="https://medium.com/@jjyepez" target="_blank" class="image fit thumb"><img src="http://lorempixel.com/300/200/city/3" alt="" /></a>
-								<h3>Lorem ipsum dolr sit.</h3>
-								<p>Proin mattis neque vel nibh sagittis, sit amet semper lorem dapibus. Curabitur non accumsan nisl. Donec placerat risus in risus ornare, vitae interdum nibh faucibus. </p>
-							</article>
-							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="https://medium.com/@jjyepez" target="_blank" class="image fit thumb"><img src="http://lorempixel.com/300/200/city/4" alt="" /></a>
-								<h3>Lorem ipsum dolr sit.</h3>
-								<p>Proin mattis neque vel nibh sagittis, sit amet semper lorem dapibus. Curabitur non accumsan nisl. Donec placerat risus in risus ornare, vitae interdum nibh faucibus.</p>
-							</article>
-						</div>
-					</section>
-			</div>
+<style>
+* {
+font-family: OpenSans, 'sans-serif';
+line-height: 140% !important;
+color: #335;
+}
+.fondo {
+background-color: #cccce0;
+}
+.adaptable {
+vertical-align: middle;
+}
+@media screen and (min-width: 361px) {
+.adaptable {
+display: inline-block;
+max-width: 360px;
+}
+}
+@media screen and (max-width: 360px) {
+.adaptable {
+display: block;
+}
+}
+.contenedor {
+background-color: #fff;
+box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+max-width: 50em;
+}
+.avtar {
+opacity: .9;
+width: 4em;
+height: 4em;
+border-radius: 100%;
+background-image: url(https://gravatar.com/avatar/e344fc33031f6a7dcc2c4603c66710a5?s=256&d=https://codepen.io/assets/avatars/user-avatar-256x256-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png);
+}
+.nombre {
+font-size: 1em;
+font-weight: 600;
+}
+.nick {
+font-size: .95em;
+font-weight: normal;
+}
+.bio {
+font-size: .8em;
+}
+.enlace {
+vertical-align: middle;
+}
+.enlace .p {
+transition: all ease .3s;
+font-size: 1.35em;
+opacity: .5;
+}
+.enlace .p:hover {
+opacity: 1;
+}
+</style>
 
-		<!-- Footer -->
-		
-		<!-- Tus redes sociales -->	
-			<footer id="footer">
-				<ul class="icons">
-					<!-- Conoce todos los íconos en http://fontawesome.io/icons/ -->
-					<!-- Solamente cambias en class="icon fa-IconoQueTuQuieras" -->
-					<li><a href="https://www.facebook.com/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="https://growthhackers.com" target="_blank" class="icon fa-bar-chart"><span class="label">Growth Hackers</span></a></li>
-					<li><a href="mailto:contacto@jjyepez.com" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-				</ul>
-				
-		<!-- El área final -->				
-				<ul class="copyright">
-					
-					<li>&copy; Curso de Marca Personal</li><li><a href="http://platzi.com" target="_blank">Platzi</a></li><li>Diseño: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
-
-		<!-- Scripts + Google Analytics -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+</head>
+<body>
+<template id="main">
+<div class="viewport fondo div-tabla">
+<div class="div-fila">
+<div class="div-celda alinear-medio relativo alinear-centro">
+<div class="contenedor seguido relativo p2">
+<div class="adaptable relativo">
+<div class="seguido alinear-medio">
+<div class="avtar div-imagen"></div>
+</div>
+<div class="seguido alinear-medio p1 alinear-izquierda">
+<h1 class="nombre">{{nombre}}</h1>
+<h2 class="nick">{{nick}}</h2>
+</div>
+<div class="bio p1" v-html="bio"></div>
+</div>
+<div class="adaptable relativo p2 alinear-izquierda">
+<div class="seguido" v-for="el in enlaces"><a class="enlace" target="_blank" v-bind:href="el.href" v-bind:title="el.title">
+<div class="p" v-bind:class="el.icono"></div></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</template>
+<div id="app"></div>
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+var app = new Vue({
+el:'#app',
+template:'#main',
+data:{
+nombre:'Ing. Julio J. Yépez',
+nick:'@jjyepez',
+bio:`
+Ego sum qui sum. Ingeniero en Informática de profesión. Diseñador Gráfico por vocación. Knowledge-hunter por naturaleza.
+`,
+enlaces:[
+{title:'Twitter',icono:'jjy-twitter',href:'https://twitter.com/jjyepez'},
+{title:'Google+',icono:'jjy-google',href:'https://plus.google.com/+JulioJY%C3%A9pez'},                    
+{title:'Facebook',icono:'jjy-facebook',href:'https://facebook.com/jjyepez'},                    
+{title:'LinkedIn',icono:'jjy-linkedin',href:'https://ve.linkedin.com/in/julio-j-y%C3%A9pez-030b221'},                    
+{title:'Youtube',icono:'jjy-youtube',href:'https://www.youtube.com/user/juliojyepez'},                    
+{title:'Codepen',icono:'jjy-codepen',href:'https://codepen.io/jjyepez'},                    
+{title:'Github',icono:'jjy-github',href:'https://github.com/jjyepez'},                    
+{title:'Stackoverflow',icono:'jjy-stackoverflow',href:'https://stackoverflow.com/users/2429316/jjyepez'},                    
+{title:'Wordpress',icono:'jjy-wordpress',href:'https://jjyepez.wordpress.com'},                    
+{title:'Medium',icono:'jjy-medium',href:'https://medium.com/@jjyepez'},                    
+{title:'Pinterest',icono:'jjy-pinterest',href:'https://pinterest.com/jjyepez'},                    
+{title:'Bitbucket',icono:'jjy-bitbucket',href:'https://bitbucket.org/jjyepez/'},                    
+{title:'Freelancer',icono:'jjy-freelancer',href:'https://www.freelancer.com/u/jjyepez'},                    
+{title:'UPlabs',icono:'jjy-uplabs',href:'https://www.uplabs.com/jjyepez'},                    
+{title:'Envato',icono:'jjy-envato',href:'https://themeforest.net/user/jjyepez'},                    
+{title:'Blogger',icono:'jjy-blogger',href:'https://www.blogger.com/profile/02390740668196028805'},                    
+{title:'DesignContest',icono:'jjy-designcontest',href:'https://www.designcontest.com/designer/jjyepez/'},                    
+{title:'Logopond',icono:'jjy-logopond',href:'https://logopond.com/jjyepez/75077/'},
+{title:'Platzi',icono:'jjy-platzi',href:'https://www.platzi.com/@jjyepez/'},
+]
+},
+methods:{
 
-  ga('create', 'UA-79451882-1', 'auto');
-  ga('send', 'pageview');
-
+}
+})
 </script>
 
-	</body>
+</body>
 </html>
