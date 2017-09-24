@@ -83,13 +83,13 @@ opacity: 1;
 <div class="seguido alinear-medio">
 <div class="avtar div-imagen"></div>
 </div>
+<nav>
 <div class="seguido alinear-medio p1 alinear-izquierda">
 <h1 class="nombre">{{nombre}}</h1>
 <h2 class="nick">{{nick}}</h2>
 </div>
 <div class="bio p1" v-html="bio"></div>
 </div>
-<nav>
 <div class="adaptable relativo p1 alinear-centro">
 <div class="seguido" v-for="el in enlaces"><a class="enlace" target="_blank" v-bind:href="el.href" v-bind:title="el.title">
 <div class="p" v-bind:class="el.icono"></div></a></div>
